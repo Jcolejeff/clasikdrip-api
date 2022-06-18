@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clasikdrips",
+  "info": {
+    "singularName": "clasikdrip",
+    "pluralName": "clasikdrips",
+    "displayName": "clasikdrip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stock": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "biginteger"
+    }
+  }
+}
