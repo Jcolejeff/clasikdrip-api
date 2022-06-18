@@ -4,7 +4,8 @@
   "info": {
     "singularName": "clasikdrip",
     "pluralName": "clasikdrips",
-    "displayName": "clasikdrip"
+    "displayName": "clasikdrip",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,23 @@
       "type": "integer"
     },
     "price": {
-      "type": "biginteger"
+      "type": "integer"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "colors": {
+      "type": "json"
+    },
+    "shipping": {
+      "type": "boolean"
     }
   }
 }
