@@ -19,20 +19,36 @@
       "type": "integer"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "colors": {
       "type": "json"
     },
     "shipping": {
       "type": "boolean"
+    },
+    "sizes": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
